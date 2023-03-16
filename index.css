@@ -1,4 +1,9 @@
-.body .bodyheader{
+.body {
+    width: 90%;
+    background-color: rgb(66, 66, 251);
+}
+
+.body .h1{
     width: 90%;
     height: 20%;
     font-family: 'Times New Roman', Times, serif;
