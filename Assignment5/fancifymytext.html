@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+		<script src="fancifymytext.js"></script>
+	</head>
+
+	<body>
+		<h1><u>Fancify my Text</u></h1>
+		<fieldset class="Text" style="width: 30%;">
+			<label for="my-textarea" style="margin-right: 50%;">Enter text:</label>
+			<textarea type="text" id="my-textarea" rows="4" cols="30"></textarea>
+		</fieldset>
+		<fieldset class="Fancify" style="width: 30%; min-width: 350px;">
+			<!--Bigger Button-->
+			<button style="cursor: pointer;" onclick="getBigger()">Bigger!</button>
+			<!--Fancy Radio Button-->
+			<input type="radio" id="fancy-button" name="radio" value="fancy" onchange="applyStylesToTextArea(true)" style="cursor: pointer;">
+			<label for="fancy">FancyShmancy</label>
+			<!--Boring Radio Button-->
+			<input type="radio" id="boring-button" name="radio" value="boring" onchange="applyStylesToTextArea(false)" style="cursor: pointer;">
+			<label for="boring">BoringBetty</label>
+			<!--Moo Button-->
+			<button style="cursor: pointer;" onclick="goMoo()">-Moo</button>
+		</fieldset>
+	</body>
+</html>
